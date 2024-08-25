@@ -16,7 +16,7 @@
 
     &_card_left {
         width: 45%;
-
+overflow: hidden;
         img {
             border-top: 2px solid #eeeee5;
             border-bottom: 2px solid #eeeee5;
@@ -25,7 +25,10 @@
             border-radius: 16px 0px 0px 16px;
             display: block;
             height: 100%;
-            object-fit: cover;
+            // object-fit:scale-down;
+            transform-origin: top;
+            transform: scale(1.5) ;
+
             @include media(1200px) {
                 border-radius: 16px 16px 0px 0px;
                 border-top: 2px solid #eeeee5;

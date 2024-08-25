@@ -6,13 +6,13 @@ import Blocks_location from "./Components/Blocks_location/Blocks_location";
 import Location from "./Components/Location/Location";
 import Nav from "./Components/Nav/Nav";
 import Upcoming from "./Components/Upcoming/Upcoming";
-import img1 from "./assets/images/slider1.png";
-import img2 from "./assets/images/5.png";
-import img3 from "./assets/images/1.png";
+import img1 from "./assets/images/slider1.jpg";
+import img2 from "./assets/images/slider2.jpg";
+import img3 from "./assets/images/slider3.jpg";
 import img4 from "./assets/images/avarage.png";
 import banner1 from "./assets/images/banner1.png";
-import banner2 from "./assets/images/banner2.png";
-import banner3 from "./assets/images/banner3.png";
+import banner2 from "./assets/images/banner3.png";
+import banner3 from "./assets/images/banner3.jpg";
 
 import Send_form from "./Components/Send_form/Send_form";
 import Block_average from "./Components/Block_average/Block_average";
