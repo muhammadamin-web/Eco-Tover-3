@@ -37,7 +37,7 @@ const Footer = () => {
               <div className="footer_phone">
                 <p className="footer_phone_text">Telefon</p>
                 <a href="tel:1361" className="footer_phone_number">
-                  {/* <BiSolidPhoneCall /> */}
+                  <BiSolidPhoneCall />
                   1361
                 </a>
                 {/* <a href="tel:1104">1104 (24/7)</a> */}
