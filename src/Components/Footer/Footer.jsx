@@ -29,8 +29,8 @@ const Footer = () => {
                 Sotuv ofisi{" "}
               </div>
               <p className="footer_location_text">
-              Fargʻona viloyati Qoʻqon shahri 
-              Zamondosh koʻchasi 28-uy
+              Fargʻona viloyati Fargʻona shahri 
+              Ekoshaharcha hududida
               </p>
             </div>
             <div className="footer_social">

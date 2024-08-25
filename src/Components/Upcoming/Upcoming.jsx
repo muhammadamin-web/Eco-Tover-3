@@ -53,12 +53,12 @@ const Upcoming = ({ images }) => {
                           className="slidet_text"
                           key={`navimage${index + 1}`}
                         >
-                          Ulkan orzularning kichik roʻyoblari 
-                          uchun tinch makon
+                         Vodiydagi eng baland turar-joy 
+                         majmuasidagi xavfsiz hayot
                         </h3>
                         <p className="slidet_text2">
-                        Yaqinlar — TXT Group kompaniyasi tomonidan Qoʻqon shahrida barpo
-                        etilayotgan ko’p funksiyali turar-joy majmuasi.
+                        Eco Tower — TXT Group kompaniyasi tomonidan Fargʻona shahrida barpo
+                        etilayotgan eng baland turar-joy majmuasi.
                         </p>
                       </div>
                       <div className="upcoming_icon2_card">

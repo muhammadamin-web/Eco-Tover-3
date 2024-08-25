@@ -19,8 +19,7 @@ const Blocks_location = () => {
             </div>
             <div className="blocks_location_map_text">
               <p className="blocks_location_map_text_text">
-              Yaqinlar — anʼanaviy va yangicha uslubdagi arxitekturani oʻzida jamlagan holda qurilayotgan 
-              yangi makon.
+              Eco Tower — bu nafaqat qulay makon, balki arxitektura sanʼati va innovatsiyalarning mukammal uygʻunligi.
               </p>
               {/* <p className="blocks_location_map_text_text2">Xaritada ko‘rish</p> */}
             </div>
@@ -29,14 +28,10 @@ const Blocks_location = () => {
           <div className="blocks_location_card_text">
             <h2 className="blocks_location_title">Majmua arxitekturasi</h2>
             <p className="blocks_location_text blocks_location_text_1">
-              Majmuamizning har bir binosi zamonaviy meʼmorchilik uslublariga
-              asoslanib, innovatsion yondashuvlar bilan boyitilgan.
+            Turar-joy majmuasi nafaqat ekologik tozalik, balki mukammal arxitektura yechimlari bilan ham ajralib turadi. Loyiha arxitektura sanʼati va zamonaviy dizaynni birlashtirib, sizga yuqori sifatli yashash joyini taqdim etadi.
             </p>
             <p className="blocks_location_text">
-              Arxitektura loyihasida tabiat bilan uygʻunlikka katta ahamiyat
-              berilgan. Yashil zonalar, dam olish joylari va ochiq havoda
-              koʻproq vaqt oʻtkazish uchun moʻljallangan joylar bilan majmua
-              sizni tinchlik va osoyishtalik bilan oʻrab oladi.
+            Har bir bino oʻziga xos zamonaviy dizayni bilan ajralib turadi. Arxitektura loyihasi nafaqat estetik goʻzallikni, balki funksional jihatlarni ham hisobga olgan. Har bir detali hayotingizni qulay va estetika bilan boyitadi.
             </p>
           </div>
 

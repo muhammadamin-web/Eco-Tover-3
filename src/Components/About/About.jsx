@@ -25,13 +25,18 @@ const About = () => {
           >
             <h2 className="about_title">Loyiha haqida</h2>
             <p className="about_text">
-            Yaqinlar oʻzining yuksak meʼmorchiligi, zamonaviy yondashuvlari va qulay yashash sharoitlari bilan ajralib turadi. 
+            Eco Tower — bu shahar hayoti bilan tabiiy muhitning uygʻunlashgan maskani. 
+
+
+
 
 
             </p>
             <p className="about_text">
-            Bu yerda siz uchun hamma narsa puxta rejalashtirilgan va kelajakdagi hayotingizni qulay va osoyishta qilish uchun yaratilgan.
+            Bizning turar-joy majmuamiz ekologik tozalik, zamonaviy arxitektura va yuqori qulaylik standartlari bilan ajralib turadi.
             </p>
+            <p className="about_text">
+            Loyiha tabiatni asrash va ekologik muvozanatni saqlashga qaratilgan. Binolarimiz qurilishida faqat ekologik toza materiallardan foydalanilgan.            </p>
           </div>
 
           <div className="about_card_left" data-aos="fade-left">
@@ -39,8 +44,7 @@ const About = () => {
             <div className="about_map_text">
             
               <p className="about_map_text_text">
-              Qoʻqon shahrining musaffo havosi va dilkash insonlaridan ilhomlanilgan holda qurilayotgan loyiha uzoq yillar davomida xalqimizga munosib xizmat koʻrsatadi.
-              </p>
+              Eco Tower – bu nafaqat yashash uchun joy, balki qulaylik va ekologik tozalikni his etish maskani. Bu yerda yangi hayot boshlash uchun sizni kutib qolamiz!              </p>
               <p className="about_map_text_text2">Xaritada ko‘rish</p>
             </div>
           </div>

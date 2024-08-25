@@ -21,22 +21,22 @@ const Location = () => {
           <div className="location_card1" data-aos="fade-left" data-aos-offset="-200">
             <h3 className="location_title"> Loyiha joylashuvi</h3>
             <p className="location_text">
-            Yaqinlar turar-joy majmuasi Qoʻqon shahri Zamondosh koʻchasi 28-uy manzilida qad rostlamoqda. Yon-atrofda maktab, bogʻcha, masjid va turli kafelar mavjud.
+            Turar-joy majmuasi oʻzining qulay joylashuvi bilan ajralib turadi. Bu nafaqat shahar markaziga yaqinlikni, balki tabiiy muhit va yashil hududlar bilan oʻralgan ideal yashash joyini taʼminlaydi.
 
 
             </p>
             <p className="location_text">
-            Majmua shahar markaziga yaqin, rivojlangan infratuzilmaga ega hududda joylashgan. Loyihaning joylashgan oʻrni jamoat transporti va asosiy yoʻllarga yaqin boʻlib, bu har qanday joyga tez va oson yetib borish imkoniyatini beradi.
+            Loyiha Fargʻona shahrining yuragida joylashgan boʻlib, barcha zarur infratuzilmalar, xizmatlar va koʻngilochar maskanlarga oson va tez yetib borishingizni taʼminlaydi.
 
             </p>
             <p className="location_text">
-            Loyihada zamonaviy energiya samaradorlik tizimlari, xavfsizlik tizimlari va boshqa innovatsion texnologiyalar qoʻllangan. Bu nafaqat qulaylik, balki barqaror hayot tarzini ham taʼminlaydi.
-            </p>
+            Shahar markaziga yaqin joylashuvi bilan birga, majmua jamoat transporti bekatlari va asosiy yoʻllarga ham yaqin. Bu sizga shaharning istalgan nuqtasiga osonlik bilan yetib borish imkoniyatini beradi.            </p>
           </div>
           <div className="location_card2" data-aos="fade-left" data-aos-offset="-200">
             <p className="location_text2">
-              <span>Yaqinlar</span>  - Oila bagʻrida tinch va totuv hayot kechirish uchun moʻljallangan 
-              uylar. Har bir rezident uchun eng qulay imkoniyatlar taqdim etamiz.
+           <span>Eco Tower </span> — shahar markazining barcha qulayliklarini tabiiy goʻzallik bilan 
+uygʻunlashtirgan mukammal makon. Bu yerda siz oʻz hayotingizni nafaqat 
+qulay, balki tabiiy muhit bilan uygʻun holda kechira olasiz.
             </p>
           </div>
         </div>
