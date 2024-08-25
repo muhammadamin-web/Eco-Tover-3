@@ -40,7 +40,7 @@ const Footer = () => {
                   {/* <BiSolidPhoneCall /> */}
                   1361
                 </a>
-                <a href="tel:1104">1104 (24/7)</a>
+                {/* <a href="tel:1104">1104 (24/7)</a> */}
               </div>
             </div>
             <div className="footer_icons">
@@ -66,7 +66,7 @@ const Footer = () => {
           </div>
           <div className="footer_card2">
             <div>
-            <iframe className="map_container" src="https://yandex.com/map-widget/v1/?um=constructor%3Ab3c82d75064ed7933d93393e5d68c32f669eb7d28ad4c9f76cf2d7f2142e30c9&amp;source=constructor"  frameborder="0"></iframe>
+            <iframe className="map_container" src="https://yandex.com/map-widget/v1/?um=constructor%3A447f2b3725411cacfa7f30e06744070bb5bd5c5004407bf05c1d59f5811079f9&amp;source=constructor"  frameborder="0"></iframe>
             </div>
           </div>
           <div className="footer_card3">
