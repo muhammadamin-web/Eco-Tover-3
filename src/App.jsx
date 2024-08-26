@@ -9,9 +9,9 @@ import Upcoming from "./Components/Upcoming/Upcoming";
 import img1 from "./assets/images/slider1.jpg";
 import img2 from "./assets/images/slider2.jpg";
 import img3 from "./assets/images/slider3.jpg";
-import img4 from "./assets/images/avarage.png";
-import banner1 from "./assets/images/banner1.png";
-import banner2 from "./assets/images/banner3.png";
+import img4 from "./assets/images/avarage.jpg";
+import banner1 from "./assets/images/banner1.jpg";
+import banner2 from "./assets/images/banner2.jpg";
 import banner3 from "./assets/images/banner3.jpg";
 
 import Send_form from "./Components/Send_form/Send_form";

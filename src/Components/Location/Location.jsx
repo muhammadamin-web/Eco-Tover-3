@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import universal from "../../assets/images/location.png";
+import universal from "../../assets/images/location.jpg";
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
