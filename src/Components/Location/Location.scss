@@ -1,10 +1,16 @@
 .location {
-overflow: hidden;
-margin-bottom: 40px;
-@include media(800px) {
-    margin-bottom: 16px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
 
-}
+    @include media(800px) {
+        margin-bottom: 16px;
+    }
+
+    @include media(600px) {
+        padding-bottom: 0px;
+    }
+
     &_box {
         width: 100%;
         display: grid;
@@ -12,12 +18,17 @@ margin-bottom: 40px;
         grid-template-columns: repeat(2, 50%);
         // grid-template-rows: repeat(3);
         gap: 4%;
-        align-self: center; /* Ikkita blockni o'rtaga joylashtiradi */
+        align-items: center;
+        /* Ikkita blockni o'rtaga joylashtiradi */
 
         @include media(1200px) {
             gap: 5%;
             // grid-template-rows: repeat(2, 0.5fr);
 
+        }
+
+        @include media(1000px) {
+            align-items: unset;
         }
 
         @include media(600px) {
@@ -30,7 +41,8 @@ margin-bottom: 40px;
     &_card_left {
         grid-row: span 3;
         overflow: hidden;
-border-radius: 16px;
+        border-radius: 16px;
+
         @include media(850px) {
             grid-row: span 1;
 
@@ -47,8 +59,8 @@ border-radius: 16px;
     &_img {
         width: 100%;
         height: 560px;
-        object-fit:cover;
-        object-position:  bottom ;
+        object-fit: cover;
+        object-position: bottom;
         border-radius: 16px;
         // border-top-right-radius: 280px;
         transform: scale(1);
@@ -59,10 +71,10 @@ border-radius: 16px;
         }
 
         @include media (800px) {
-            border-radius:0px 200px 200px 0px;
+            border-radius: 0px 200px 200px 0px;
             // transform: scaleX(1);
 
-            
+
         }
 
         @include media(600px) {
@@ -120,6 +132,7 @@ border-radius: 16px;
         @include media(1600px) {
             width: 85%;
         }
+
         @include media(1100px) {
             width: 85%;
             padding-top: 10px;
@@ -142,7 +155,8 @@ border-radius: 16px;
         background-color: var(--brwn2);
         padding: 24px 32px;
         border-radius: 32px 32px 32px 0px;
-        align-self: center; /* Ikkita blockni o'rtaga joylashtiradi */
+        align-self: center;
+        /* Ikkita blockni o'rtaga joylashtiradi */
 
 
         @include media(1600px) {
@@ -162,7 +176,7 @@ border-radius: 16px;
         @include media(600px) {
             width: 100%;
             margin-top: 24px;
-            border-radius:  32px 64px 64px 32px;
+            border-radius: 32px 64px 64px 32px;
             padding: 16px 16px 16px 24px;
 
         }
@@ -194,7 +208,7 @@ border-radius: 16px;
         width: 100%;
 
         padding-left: 8px;
-        color: white  ;
+        color: white;
         border-left: 4px solid white;
 
         @include media(1200px) {

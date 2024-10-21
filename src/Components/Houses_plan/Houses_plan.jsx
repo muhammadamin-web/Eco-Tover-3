@@ -25,9 +25,8 @@ const Houses_plan = () => {
               {["Hammasi", "1-xonali", "2-xonali", "3-xonali"].map((number) => (
                 <p
                   key={number}
-                  className={`houses_number ${
-                    activeNumber === number ? "active" : ""
-                  }`}
+                  className={`houses_number ${activeNumber === number ? "active" : ""
+                    }`}
                   onClick={() => handleNumberClick(number)}
                 >
                   {number}
@@ -36,7 +35,6 @@ const Houses_plan = () => {
             </div>
           </div>
 
-          {/* Showing corresponding content based on activeNumber */}
           {activeNumber === "Hammasi" && (
             <div className="houses_card_bottom">
               <img src={room2_1} alt="" className="houses_img" />
@@ -52,20 +50,10 @@ const Houses_plan = () => {
               <img src={room1_1} alt="" className="houses_img" />
               <div className="houses_border"></div>
               <img src={room1_2} alt="" className="houses_img" />
-
             </div>
           )}
 
-          {/* {activeNumber === "2-xonali" && (
-            <div className="houses_card_bottom2">
-              <img src={houses2} alt="" className="houses_img" />
-              <div className="houses_border"></div>
-              <img src={houses21} alt="" className="houses_img" />
-              <div className="houses_border"></div>
-              <img src={houses22} alt="" className="houses_img" />
-            </div>
-          )} */}
- {activeNumber === "2-xonali" && (
+          {activeNumber === "2-xonali" && (
             <div className="houses_card_bottom1">
               <img src={room2_1} alt="" className="houses_img" />
               <div className="houses_border"></div>
@@ -79,11 +67,9 @@ const Houses_plan = () => {
               <img src={room3_1} alt="" className="houses_img" />
               <div className="houses_border"></div>
               <img src={room3_2} alt="" className="houses_img" />
-
             </div>
           )}
 
-          {/* You can continue adding more conditions for "3-xonali", "4-xonali", etc. */}
         </div>
       </div>
     </div>
